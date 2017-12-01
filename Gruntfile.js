@@ -96,7 +96,7 @@ module.exports = function(grunt) {
             'src/locales/bootstrap-wysihtml5.en-US.js'
           ],
           'dist/bootstrap3-wysihtml5.all.min.js': [
-            'components/wysihtml5x/dist/wysihtml5x-toolbar.js',
+            'components/wysihtml5x/dist/wysihtml-toolbar.js',
             'components/handlebars/handlebars.runtime.min.js',
             'src/generated/templates.js', 
             'src/bootstrap3-wysihtml5.js',
@@ -154,7 +154,7 @@ module.exports = function(grunt) {
       },
       all: {
         src: [
-          'components/wysihtml5x/dist/wysihtml5x-toolbar.js',
+          'components/wysihtml5x/dist/wysihtml-toolbar.js',
           'components/handlebars/handlebars.runtime.min.js',
           'src/generated/templates.js', 
           'src/bootstrap3-wysihtml5.js',
@@ -176,7 +176,7 @@ module.exports = function(grunt) {
     },
     wrap: {
       wysihtml5: {
-        src: ['components/wysihtml5x/dist/wysihtml5x-toolbar.js'], 
+        src: ['components/wysihtml5x/dist/wysihtml-toolbar.js'], 
         dest: 'dist/amd/wysihtml5.js',
         options: {
           /*jshint multistr: true */
